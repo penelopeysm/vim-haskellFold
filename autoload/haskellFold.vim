@@ -37,7 +37,7 @@ fun! haskellFold#HaskellFold( lineNum ) "{{{
     endif
 
     if line =~ '^import'
-        return 2
+        return 1
     endif
 
     if s:HaskellSnipGlobal( line )
